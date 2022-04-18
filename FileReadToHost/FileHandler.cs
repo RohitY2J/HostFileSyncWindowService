@@ -28,7 +28,7 @@ namespace FileReadToHost
             try
             {
                 string readText = File.ReadAllText(readPath);
-                DateTime currentTime = new DateTime();
+                DateTime currentTime = DateTime.Now;
                 TimeSpan start = new TimeSpan(20, 0, 0);
                 TimeSpan end = new TimeSpan(22, 0, 0);
                 if(start <= currentTime.TimeOfDay && end >= currentTime.TimeOfDay)

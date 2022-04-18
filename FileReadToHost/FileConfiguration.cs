@@ -11,5 +11,6 @@ namespace FileReadToHost
         public string FileToRead { get; set; }
         public string FileToWrite { get; set; }
         public string TextToSplit { get; set; }
+        public string SheduledFileToRead { get; set; }
     }
 }
